@@ -1,0 +1,22 @@
+#Judet, #Orase {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#Judet select, #Orase select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+#Judet select:focus, #Orase select:focus {
+    outline: none;
+}
+
+#Orase {
+    margin-left: 20px;
+}

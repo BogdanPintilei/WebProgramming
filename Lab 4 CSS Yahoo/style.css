@@ -1,0 +1,321 @@
+ul#nav {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+}
+
+ul#nav li {
+	float: left; 
+}
+
+ul#nav li a {
+	display: inline;
+	float: left;
+	padding: 10px;
+	margin-right: 5px;
+    margin-left: 5px;
+	background-color: #660099;
+	color: white;
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+ul#nav li a:hover {
+	padding-top: 13px;
+}
+
+#footer {
+    bottom: 0;
+    position: relative;
+}
+
+#menuWraper{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    height: 40px;
+    background-color: #660099;
+}
+
+#mainBodyWrapper {
+    position: relative;
+    top: 33px;
+    margin: 0 auto;
+    width: 1400px;
+    height: 1030px;
+    background-color: ghostwhite;
+}
+
+#mainBodyLeft {
+    float: left;
+    width: 65%;
+    height: 100%;
+/*    background-color: red;*/
+}
+
+#mainBodyRight {
+    float: right;
+    width: 35%;
+    height: 100%;
+/*    background-color: blue;*/
+}
+
+#TrendingNow > ul {
+    margin: 0 auto;
+    padding: 10px;
+    columns: 2;
+}
+
+#mainBodyTop > img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 200px;
+}
+
+input[type=text] {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    float: right;
+    margin-top: 15px;
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 550px;
+}
+
+ul#nav2 {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+}
+
+ul#nav2 li {
+	float: left; 
+}
+
+ul#nav2 li a {
+	display: inline;
+	float: left;
+	padding: 10px;
+	margin-right: 5px;
+    margin-left: 5px;
+	color: #660099;
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+#napoleonBIG { 
+    position: absolute;
+    top: 150px;
+}
+
+#basketball {
+    height: 350px;
+    width: 600px;
+}
+
+#blur {
+    position: relative;
+    margin-left: -10px;
+    height: 350px;
+    width: 300px;
+}
+
+#napoleonBIG > h2 { 
+    position: absolute;
+    color: white;
+    top: 40px; 
+    left: 610px;
+    width: 100%; 
+}
+
+#napoleonBIG > p {
+    position: absolute;
+    color: white;
+    top: 150px; 
+    left: 610px;
+    width: 100%; 
+}
+
+#smallImages { 
+    position: absolute;
+    top: 520px;
+}
+
+#smallImages img {
+    height: 120px;
+    width: 170px;
+}
+
+#smallImages span {
+    font-size: 13px;
+}
+
+#napo1, #napo2, #napo3, #napo4, #napo5{
+    width: 180px;
+    position: absolute;
+}
+
+#napo2 {left: 180px;}
+#napo3 {left: 360px;}
+#napo4 {left: 540px;}
+#napo5 {left: 720px;}
+
+/*napo1*/
+#napo1Wrapper img {
+    position: absolute;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+}
+
+#napo1Wrapper span {
+    position: absolute;
+    margin-top: 80px;
+    font-size: 18px;
+    left: 400px;
+    width: 500px;
+}
+
+#napo1Wrapper {display: none;}
+#napo1:hover #napo1Wrapper {
+    display: block;
+}
+
+/*napo2*/
+#napo2Wrapper {
+    margin-left: -180px;
+}
+
+#napo2Wrapper img {
+    position: absolute;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+}
+
+#napo2Wrapper span {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 18px;
+    left: 200px;
+    width: 500px;
+}
+
+#napo2Wrapper {display: none;}
+#napo2:hover #napo2Wrapper {
+    display: block;
+}
+
+/* napo3*/
+#napo3Wrapper {
+    margin-left: -360px;
+}
+
+#napo3Wrapper img {
+    position: absolute;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+}
+
+#napo3Wrapper span {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 18px;
+    left: 20px;
+    width: 500px;
+}
+
+#napo3Wrapper {display: none;}
+#napo3:hover #napo3Wrapper {
+    display: block;
+}
+
+/*napo4*/
+#napo4Wrapper {
+    margin-left: -540px;
+}
+
+#napo4Wrapper img {
+    position: absolute;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+}
+
+#napo4Wrapper span {
+    position: relative;
+    font-size: 18px;
+    top: 80px;
+    left: 380px;
+    width: 500px;
+}
+
+#napo4Wrapper {display: none;}
+#napo4:hover #napo4Wrapper {
+    display: block;
+}
+
+/*napo5*/
+#napo5Wrapper {
+    margin-left: -720px;
+}
+
+#napo5Wrapper img {
+    position: absolute;
+    margin-top: 20px;
+    height: 300px;
+    width: 350px;
+}
+
+#napo5Wrapper span {
+    position: relative;
+    font-size: 18px;
+    top: 80px;
+    left: 380px;
+    width: 500px;
+}
+
+#napo5Wrapper {display: none;}
+#napo5:hover #napo5Wrapper {
+    display: block;
+}
+
+#mainBodyRight h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: skyblue;
+    font-family: verdana;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+#napoleonImg {
+    margin-left: 20px;
+    width: 450px;
+    height: 300px;
+}
+
+#forecast {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 400px;
+    height: 300px;
+}

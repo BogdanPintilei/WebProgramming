@@ -1,0 +1,36 @@
+p, ul, li, div, nav {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Gabriola;
+    font-size: 22px;
+}
+
+#menu {
+    overflow: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.parent-menu {
+    background-color: dodgerblue;
+    min-width: 200px;
+    float: left;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li a {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: deepskyblue;
+}

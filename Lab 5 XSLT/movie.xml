@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="movie.xsl"?>
+<movies>
+	<movie>
+		<title>Star Trek</title>
+		<actors>
+			<actor>Chris Pine</actor>
+			<actor>Leonard Nimoy</actor>
+			<actor>William Shattner</actor>
+		</actors>
+		<genre>SF</genre>
+		<date>3</date>
+		<duration>2 ore</duration>
+	</movie>
+	<movie>
+		<title>Lord of the rings</title>
+		<actors>
+			<actor>Smirghel</actor>
+			<actor>Orlando Bloom</actor>
+			<actor>Gandalf the Gray</actor>
+		</actors>
+		<genre>Fiction</genre>
+		<date>11</date>
+		<duration>3 ore</duration>
+	</movie>
+	<movie>
+		<title>Vikings</title>
+		<actors>
+			<actor>Viking 1</actor>
+			<actor>Viking 2</actor>
+			<actor>Ragnar</actor>
+		</actors>
+		<genre>Documentary</genre>
+		<date>33</date>
+		<duration>12 ora</duration>
+	</movie>
+	<movie>
+		<title>Big Bang theory</title>
+		<actors>
+			<actor>Dr. Sheldon Cooper</actor>
+			<actor>Leonard</actor>
+			<actor>Raj</actor>
+		</actors>
+		<genre>Comedy</genre>
+		<date>15</date>
+		<duration>30 minutes</duration>
+	</movie>
+	<movie>
+		<title>Hobbit</title>
+		<actors>
+			<actor>Smirghel</actor>
+			<actor>Legolas</actor>
+			<actor>Saruman</actor>
+		</actors>
+		<genre>Telenovela</genre>
+		<date>20</date>
+		<duration>30 minutes</duration>
+	</movie>
+</movies>
